@@ -18,7 +18,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1:________________  
+Vulnerability #1:__SQL Injection__  
+ * Blind SQL injection can be run by inserting ' OR SLEEP(5)=0--' at the end of the URL within the salesperson page. For example: https://35.226.11.110/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27 makes the page load for 5 seconds.
 
 Vulnerability #2: __________________
 
