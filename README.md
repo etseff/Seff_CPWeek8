@@ -25,7 +25,7 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __Username Enumeration___
+Vulnerability #1: __Username Enumeration__
  * If an existing username is entered with the incorrect password, the failure message appears in bold. If a username that does not exist is used, the error message is in non-bold text. Upon checking the source code, this is because these errors were stored as different classes, one called "failed" and one called "failure".
 
 Vulnerability #2: __________________
