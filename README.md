@@ -20,6 +20,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1:__SQL Injection__  
  * Blind SQL injection can be run by inserting ' OR SLEEP(5)=0--' at the end of the URL within the salesperson page. For example: https://35.226.11.110/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27 makes the page load for 5 seconds.
+![](https://github.com/etseff/Seff_CPWeek8/blob/master/CPWEEK8-1.gif)
 
 Vulnerability #2: __Session Hijacking__
  * The blue website can be opened on two browsers. I logged in on chrome then accessed the session ID through inspecting the page. Then on Firefox, I opened the website as well, not logged in. I was able to change the session ID using the hacking tool provided, then be logged in.
