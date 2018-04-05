@@ -33,7 +33,7 @@ Vulnerability #1: __Username Enumeration__
 
 Vulnerability #2: __Cross-Site Scripting__
  * The Contact page has a cross-site scripting vulnerability. Script like <script>alert('Elie found the XSS!');</script> can be added in the contact form, then upon logging in as admin and clicking the feedback tab, the alert popped up.
-![alt text](
+![alt text](https://github.com/etseff/Seff_CPWeek8/blob/master/Screenshot%202018-04-04%2019.42.25.png)
 
 ## Red
 
