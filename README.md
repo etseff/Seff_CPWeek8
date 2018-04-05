@@ -24,7 +24,7 @@ Vulnerability #1:__SQL Injection__
 
 Vulnerability #2: __Session Hijacking__
  * The blue website can be opened on two browsers. I logged in on chrome then accessed the session ID through inspecting the page. Then on Firefox, I opened the website as well, not logged in. I was able to change the session ID using the hacking tool provided, then be logged in.
-
+![](https://github.com/etseff/Seff_CPWeek8/blob/master/CPWEEK8-2.gif)
 ## Green
 
 Vulnerability #1: __Username Enumeration__
