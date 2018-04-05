@@ -29,7 +29,7 @@ Vulnerability #2: __Session Hijacking__
 
 Vulnerability #1: __Username Enumeration__
  * If an existing username is entered with the incorrect password, the failure message appears in bold. If a username that does not exist is used, the error message is in non-bold text. Upon checking the source code, this is because these errors were stored as different classes, one called "failed" and one called "failure".
- 
+ ![](https://github.com/etseff/Seff_CPWeek8/blob/master/CPWEEK8-3.gif)
 
 Vulnerability #2: __Cross-Site Scripting__
  * The Contact page has a cross-site scripting vulnerability. Script like <script>alert('Elie found the XSS!');</script> can be added in the contact form, then upon logging in as admin and clicking the feedback tab, the alert popped up.
