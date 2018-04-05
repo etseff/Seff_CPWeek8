@@ -43,7 +43,7 @@ Vulnerability #1: __Insecure Direct Object Reference__
 
 Vulnerability #2: __CSRF__
  * Logged into the red website, on the users page, editing a user, I clicked inspect. I then inspected the form and changed the csfr token, which should have prevented me from changing the user information, but did not.
-
+![](https://github.com/etseff/Seff_CPWeek8/blob/master/CPWEEK8-6.gif)
 
 ## Notes
 
