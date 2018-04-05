@@ -21,8 +21,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1:__SQL Injection__  
  * Blind SQL injection can be run by inserting ' OR SLEEP(5)=0--' at the end of the URL within the salesperson page. For example: https://35.226.11.110/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27 makes the page load for 5 seconds.
 
-Vulnerability #2: __________________
-
+Vulnerability #2: __Session Hijacking__
+ * The blue website can be opened on two browsers. I logged in on chrome then accessed the session ID through inspecting the page. Then on Firefox, I opened the website as well, not logged in. I was able to change the session ID using the hacking tool provided, then be logged in.
 
 ## Green
 
@@ -40,7 +40,8 @@ Vulnerability #2: __Cross-Site Scripting__
 Vulnerability #1: __Insecure Direct Object Reference__
  * On the red pag under the "Find a Salesperson" tab, clicking through the salespeople reveals the vulnerability because at the end of each URL is salesperson.php?id=N, where N is a number. By using https://35.226.11.110/red/public/salesperson.php?id=10, I was able to find a salesperson whose page is not supposed to be public. 
 
-Vulnerability #2: __________________
+Vulnerability #2: __CSRF__
+ * Logged into the red website, on the users page, editing a user, I clicked inspect. I then inspected the form and changed the csfr token, which should have prevented me from changing the user information, but did not.
 
 
 ## Notes
