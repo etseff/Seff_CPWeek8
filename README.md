@@ -39,6 +39,7 @@ Vulnerability #2: __Cross-Site Scripting__
 
 Vulnerability #1: __Insecure Direct Object Reference__
  * On the red pag under the "Find a Salesperson" tab, clicking through the salespeople reveals the vulnerability because at the end of each URL is salesperson.php?id=N, where N is a number. By using https://35.226.11.110/red/public/salesperson.php?id=10, I was able to find a salesperson whose page is not supposed to be public. 
+![](https://github.com/etseff/Seff_CPWeek8/blob/master/CPWEEK8-5.gif)
 
 Vulnerability #2: __CSRF__
  * Logged into the red website, on the users page, editing a user, I clicked inspect. I then inspected the form and changed the csfr token, which should have prevented me from changing the user information, but did not.
